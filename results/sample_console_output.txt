@@ -1,0 +1,12 @@
+Sample run generated from data/sample_data.json
+
+Selected parcel IDs: P01, P03, P05, P07
+Packed weight: 15 / 15 kg
+Total value: 355
+Route: Warehouse -> Model Town -> Civil Lines -> Sector 14 -> Warehouse
+Distance: 13.00 km
+Timings:
+sorting_seconds: 0.00001379 sec
+knapsack_seconds: 0.00002822 sec
+routing_seconds: 0.00028181 sec
+total_seconds: 0.00033496 sec

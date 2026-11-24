@@ -1,0 +1,27 @@
+[
+    {
+        "parcel_count": 10,
+        "merge_sort_avg_seconds": 1.2319999950705095e-05,
+        "knapsack_avg_seconds": 9.974000004149275e-05
+    },
+    {
+        "parcel_count": 25,
+        "merge_sort_avg_seconds": 2.9940000058559235e-05,
+        "knapsack_avg_seconds": 0.00023591999979544198
+    },
+    {
+        "parcel_count": 50,
+        "merge_sort_avg_seconds": 6.776000009267591e-05,
+        "knapsack_avg_seconds": 0.00048270000006596093
+    },
+    {
+        "parcel_count": 75,
+        "merge_sort_avg_seconds": 0.00010777999996207655,
+        "knapsack_avg_seconds": 0.000736260000121547
+    },
+    {
+        "parcel_count": 100,
+        "merge_sort_avg_seconds": 0.0001534400000309688,
+        "knapsack_avg_seconds": 0.0010074200001326972
+    }
+]

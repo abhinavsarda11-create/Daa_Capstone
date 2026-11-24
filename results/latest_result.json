@@ -1,0 +1,160 @@
+{
+    "sorted_parcels": [
+        {
+            "id": "P01",
+            "name": "Medicine Box",
+            "weight": 4,
+            "value": 90,
+            "priority": 5,
+            "deadline": "10:00",
+            "destination": "Sector 14"
+        },
+        {
+            "id": "P03",
+            "name": "Laptop",
+            "weight": 5,
+            "value": 120,
+            "priority": 5,
+            "deadline": "11:00",
+            "destination": "Civil Lines"
+        },
+        {
+            "id": "P05",
+            "name": "Documents",
+            "weight": 2,
+            "value": 80,
+            "priority": 4,
+            "deadline": "09:30",
+            "destination": "Model Town"
+        },
+        {
+            "id": "P02",
+            "name": "Books",
+            "weight": 6,
+            "value": 70,
+            "priority": 3,
+            "deadline": "12:00",
+            "destination": "Sector 15"
+        },
+        {
+            "id": "P07",
+            "name": "Gift Parcel",
+            "weight": 4,
+            "value": 65,
+            "priority": 3,
+            "deadline": "13:00",
+            "destination": "Civil Lines"
+        },
+        {
+            "id": "P04",
+            "name": "Clothes",
+            "weight": 3,
+            "value": 45,
+            "priority": 2,
+            "deadline": "15:00",
+            "destination": "Sector 14"
+        },
+        {
+            "id": "P06",
+            "name": "Kitchen Items",
+            "weight": 7,
+            "value": 55,
+            "priority": 1,
+            "deadline": "17:00",
+            "destination": "Sector 15"
+        }
+    ],
+    "selected_parcels": [
+        {
+            "id": "P01",
+            "name": "Medicine Box",
+            "weight": 4,
+            "value": 90,
+            "priority": 5,
+            "deadline": "10:00",
+            "destination": "Sector 14"
+        },
+        {
+            "id": "P03",
+            "name": "Laptop",
+            "weight": 5,
+            "value": 120,
+            "priority": 5,
+            "deadline": "11:00",
+            "destination": "Civil Lines"
+        },
+        {
+            "id": "P05",
+            "name": "Documents",
+            "weight": 2,
+            "value": 80,
+            "priority": 4,
+            "deadline": "09:30",
+            "destination": "Model Town"
+        },
+        {
+            "id": "P07",
+            "name": "Gift Parcel",
+            "weight": 4,
+            "value": 65,
+            "priority": 3,
+            "deadline": "13:00",
+            "destination": "Civil Lines"
+        }
+    ],
+    "total_weight": 15,
+    "total_value": 355,
+    "capacity": 15,
+    "route": [
+        "Warehouse",
+        "Model Town",
+        "Civil Lines",
+        "Sector 14",
+        "Warehouse"
+    ],
+    "route_distance": 13.0,
+    "legs": [
+        {
+            "from": "Warehouse",
+            "to": "Model Town",
+            "path": [
+                "Warehouse",
+                "Model Town"
+            ],
+            "distance": 3.0
+        },
+        {
+            "from": "Model Town",
+            "to": "Civil Lines",
+            "path": [
+                "Model Town",
+                "Civil Lines"
+            ],
+            "distance": 3.0
+        },
+        {
+            "from": "Civil Lines",
+            "to": "Sector 14",
+            "path": [
+                "Civil Lines",
+                "Sector 14"
+            ],
+            "distance": 3.0
+        },
+        {
+            "from": "Sector 14",
+            "to": "Warehouse",
+            "path": [
+                "Sector 14",
+                "Warehouse"
+            ],
+            "distance": 4.0
+        }
+    ],
+    "timings": {
+        "sorting_seconds": 2.83e-05,
+        "knapsack_seconds": 4.37e-05,
+        "routing_seconds": 0.0001172,
+        "total_seconds": 0.0002228
+    }
+}
